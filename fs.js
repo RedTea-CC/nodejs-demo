@@ -16,8 +16,8 @@ function getSize(path) {
     }
 }
 
-const targetPath = path.resolve(__dirname, './fs.js');
-console.log("targetpath:", targetPath);
+const targetPath = path.resolve(__dirname);
+console.log("target_path:", targetPath);
 let size = getSize(targetPath);
 
 console.log(size);
